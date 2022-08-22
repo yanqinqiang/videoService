@@ -1,0 +1,94 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Video.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Video.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Video.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Video.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Video.Domain/Video.Domain.csproj",
+      "msbuildProject": "../Video.Domain/Video.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Video.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\peter\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\peter\\source\\repos\\Video.API\\Video.Infrastructure\\Video.Infrastructure.csproj",
+      "projectName": "Video.Infrastructure",
+      "projectPath": "C:\\Users\\peter\\source\\repos\\Video.API\\Video.Infrastructure\\Video.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\peter\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\peter\\source\\repos\\Video.API\\Video.Infrastructure\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\peter\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\peter\\source\\repos\\Video.API\\Video.Domain\\Video.Domain.csproj": {
+              "projectPath": "C:\\Users\\peter\\source\\repos\\Video.API\\Video.Domain\\Video.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
