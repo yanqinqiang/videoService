@@ -1,6 +1,6 @@
 # Video Service
 I adpot a web api micro service to satisfy with the requirment from dev team.
-Here is the related component architecture for video serivce:
+Here is the related component architecture for video service:
 ![Components arch of video service](https://user-images.githubusercontent.com/5415327/185826347-d512b6ca-ec43-44bf-a31f-79480da9983e.jpg)
 
 <h3>Here is the detail logic for what video service does?</h3>
