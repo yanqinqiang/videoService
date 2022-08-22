@@ -1,6 +1,6 @@
 # videoService
 We adpot a web api micro service to satisfy with the requirment of dev team.
-Here is the related component archtect for video serivce:
+Here is the related component architecture for video serivce:
 
 ![Components arch of video service](https://user-images.githubusercontent.com/5415327/185826347-d512b6ca-ec43-44bf-a31f-79480da9983e.jpg)
 
@@ -11,3 +11,6 @@ Here is the detail logic for what video service does?
 
 Here is the DB design for video service:
 ![Database design](https://user-images.githubusercontent.com/5415327/185830943-5bf23d67-04c6-499c-a2af-2594a4de14c0.jpg)
+
+Here is the project structure which followed the Domain Drive Design.
+![image](https://user-images.githubusercontent.com/5415327/185861303-77797e50-e9fd-4a75-a5f2-39121e13bb06.png)
